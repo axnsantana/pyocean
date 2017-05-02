@@ -12,4 +12,3 @@ products:
                     opendap: http://thredds.socib.es/thredds/dodsC/mooring/sea_level/station_coloniasantpere/L1
                     http: http://thredds.socib.es/thredds/fileServer/mooring/sea_level/station_coloniasantpere/L1
                 basename: dep20151028_station-coloniasantpere_L1_%s.nc
-                

@@ -1,0 +1,36 @@
+api_key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbGV4LnNhbnRhbmFAZ21haWwuY29tIiwianRpIjoiY2JkOGExOWYtYjgxNC00Y2RiLWE4YzktMzU4ZDFjOTY4MDI5IiwiZXhwIjoxNTAwNjY0ODUxLCJpc3MiOiJBRU1FVCIsImlhdCI6MTQ5Mjg4ODg1MSwidXNlcklkIjoiY2JkOGExOWYtYjgxNC00Y2RiLWE4YzktMzU4ZDFjOTY4MDI5Iiwicm9sZSI6IiJ9.YsiHMjENXuf-E5FLYJ5esozjA7sK8kxHdmgj0vAPpm8
+codes:
+  cities:
+    alcudia:
+      code: "07003"
+      name: "Alcúdia"
+      beaches:
+        alcudia:
+          code: "07"
+          name: "Alcúdia"
+    calvia:
+      code: "07011"
+      name: "Calvia"
+      beaches:
+        palmira:
+          code: "02"
+          name: "Palmira"
+    palma_de_mallorca:
+      code: "07040"
+      name: "Palma de Mallorca"
+      beaches:
+        cala_major:
+          code: "01"
+          name: "Cala Major"
+        playa_de_palma:
+          code: "07"
+          name: "Playa de Palma"
+
+
+
+products:
+  url: https://opendata.aemet.es/opendata/
+  beaches:
+    source: api/prediccion/especifica/playa/
+  cities:
+    source: api/prediccion/especifica/municipio/

@@ -1,0 +1,14 @@
+products:
+    modeling:
+        wave:
+            urls:
+                opendap: http://thredds.socib.es/thredds/dodsC/operational_models/oceanographical/wave/sapo_ib
+                http: http://thredds.socib.es/thredds/fileServer/operational_models/oceanographical/wave/sapo_ib
+            basename: sapo_ib_swan_%s.nc
+    observational:
+        fixed_estations:
+            colonia_saintpere:
+                urls:
+                    opendap: http://thredds.socib.es/thredds/dodsC/mooring/sea_level/station_coloniasantpere/L1
+                    http: http://thredds.socib.es/thredds/fileServer/mooring/sea_level/station_coloniasantpere/L1
+                basename: dep20151028_station-coloniasantpere_L1_%s.nc
